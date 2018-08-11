@@ -93,6 +93,10 @@ nav a{
     color: white;
 }
 
+.black-text{
+    color: black;
+}
+
 .my-panel{
     border: 1px solid rgb(230, 230, 230);
     padding: 20px 30px;
@@ -106,6 +110,14 @@ nav a{
     margin-bottom: 15px;
     font-weight: 700;
     color: black;
+}
+
+.white-panel{
+    background: white;
+}
+
+.icon-small{
+    font-size: 12px;
 }
 
 .my-btn{
@@ -159,7 +171,7 @@ nav a{
 
 .rounded-block{
     display: inline-block;
-    padding:  15px 25px;
+    padding:  15px 35px;
     margin: 10px;
 }
 
@@ -181,6 +193,10 @@ nav a{
 
 .padding-big{
     padding: 20px 0px;
+}
+
+.padding-lg{
+    padding: 50px 0px;
 }
 
 .heading-text{
@@ -286,7 +302,7 @@ nav a{
     left: 0;
     right: 0;
     z-index: -1;
-    filter: brightness(50%);
+    filter: brightness(45%);
     background: url("../img/background2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -297,7 +313,7 @@ nav a{
     position: relative;
 }
 
-.bg-2{
+.bg-2::after{
     content: '';
     position: absolute;
     top: 0;
@@ -310,4 +326,20 @@ nav a{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+.rounded-img{
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.rounded-img-1{
+    background-image: url("../img/perso1.jpg");
+
+}
+
+.rounded-img-2{
+    background-image: url("../img/perso2.jpg");
+    border-radius: 100%;
 }
