@@ -13,6 +13,11 @@
 </head>
 
 <style>
+    ul .active {
+        transform: rotateZ(270deg) scale(1.4);
+        width: 10px;
+        transition: 0.5s;
+    }
 </style>
 
 <body>
@@ -153,7 +158,7 @@
                     <div class="my-panel on-hover-panel">
                         <div class="row">
                             <div class="col-2">
-                                <i class="far fa-gem icon"></i>
+                                <i class="far fa-gem icon padding"></i>
                             </div>
 
                             <div class="col-md-10">
@@ -168,7 +173,7 @@
                     <div class="my-panel on-hover-panel">
                         <div class="row">
                             <div class="col-2">
-                                <i class="fas fa-magic icon"></i>
+                                <i class="fas fa-magic icon padding"></i>
                             </div>
 
                             <div class="col-md-10">
@@ -183,7 +188,7 @@
                     <div class="my-panel on-hover-panel">
                         <div class="row">
                             <div class="col-2">
-                                <i class="fas fa-mobile-alt icon"></i>
+                                <i class="fas fa-mobile-alt icon padding"></i>
                             </div>
 
                             <div class="col-md-10">
@@ -198,7 +203,7 @@
                     <div class="my-panel on-hover-panel">
                         <div class="row">
                             <div class="col-2">
-                                <i class="fa fa-plane icon"></i>
+                                <i class="fa fa-plane icon padding"></i>
                             </div>
 
                             <div class="col-md-10">
@@ -213,7 +218,7 @@
                     <div class="my-panel on-hover-panel">
                         <div class="row">
                             <div class="col-2">
-                                <i class="fas fa-magic icon"></i>
+                                <i class="fas fa-magic icon padding"></i>
                             </div>
 
                             <div class="col-md-10">
@@ -228,7 +233,7 @@
                     <div class="my-panel on-hover-panel">
                         <div class="row">
                             <div class="col-2">
-                                <i class="fas fa-flask icon"></i>
+                                <i class="fas fa-flask icon padding"></i>
                             </div>
 
                             <div class="col-md-10">
@@ -243,22 +248,188 @@
 
             <div class="margin"></div>
         </div>
-        
+
         <div class="container-fluid bg-gray">
-            <div class="container">
+            <div class="container margin">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-6">
-                        <h3 class="heading-text heading-text-left">Why Choose Us?</h3>
+                        <h3 class="heading-text heading-text-left margin">Why Choose Us?</h3>
+                        <p class="standart-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum cumque inventore fuga ipsum perspiciatis quam aut nostrum
+                            ea! Eum qui quaerat similique sed quasi dicta facere dolore nostrum saepe.
+                        </p>
+                        <ul class="standart-text my-list">
+                            <li>
+                                <i class="far fa-check-circle icon"></i>
+                                Lorem ipsum dolor sit amet.
+                            </li>
+                            <li>
+                                <i class="far fa-check-circle icon"></i>
+                                Lorem ipsum dolor sit amet.
+                            </li>
+                            <li>
+                                <i class="far fa-check-circle icon"></i>
+                                Lorem ipsum dolor sit amet.
+                            </li>
+                            <li>
+                                <i class="far fa-check-circle icon"></i>
+                                Lorem ipsum dolor sit amet.
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <div>
+                        <div id="demo" class="carousel slide" data-ride="carousel">
 
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/about1.jpg" class="img-fluid" alt="Los Angeles">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/about2.jpg" class="img-fluid" alt="Chicago">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/about1.jpg" class="img-fluid" alt="New York">
+                                </div>
+                            </div>
+
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                            </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="margin"></div>
+        </div>
+
+        <div class="container-fluid bg-1">
+            <div class="container">
+                <div class="row justify-content-center secondary-text">
+                    <div class="padding-big col-md-12"></div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="container text-align-center">
+                            <i class="far fa-check-circle icon"></i>
+                            <h3 class="padding-top">512</h3>
+                            <p>Happy clients</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="container text-align-center">
+                            <i class="far fa-check-circle icon"></i>
+                            <h3 class="padding-top">512</h3>
+                            <p>Awards won</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="container text-align-center">
+                            <i class="far fa-check-circle icon"></i>
+                            <h3 class="padding-top">512</h3>
+                            <p>Cups of coffee</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="container text-align-center">
+                            <i class="far fa-check-circle icon"></i>
+                            <h3 class="padding-top">512</h3>
+                            <p>Projects completed</p>
+                        </div>
+                    </div>
+                    <div class="padding-big col-md-12"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="margin row text-align-center">
+                <div class="col-md-12">
+                    <h3 class="heading-text">Pricing Table</h3>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="my-panel">
+                        <h4>Silver Plan</h4>
+                        <div class="rounded-blue rounded-block black-text">
+                            <h2>$9</h2>
+                            <p>/month</p>
+                        </div>
+                        <p>100 Email Account</p>
+                        <p>1GB Disk Space</p>
+                        <p>24/24 Support</p>
+                        <div class="margin-bottom"></div>
+                        <a class="my-btn btn-bordered" href="#">Purchase now</a>
+                        <div class="margin-bottom"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="my-panel">
+                        <h4>Silver Plan</h4>
+                        <div class="rounded-blue rounded-block black-text">
+                            <h2>$9</h2>
+                            <p>/month</p>
+                        </div>
+                        <p>100 Email Account</p>
+                        <p>1GB Disk Space</p>
+                        <p>24/24 Support</p>
+                        <div class="margin-bottom"></div>
+                        <a class="my-btn btn-bordered" href="#">Purchase now</a>
+                        <div class="margin-bottom"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="my-panel">
+                        <h4>Silver Plan</h4>
+                        <div class="rounded-blue rounded-block black-text">
+                            <h2>$9</h2>
+                            <p>/month</p>
+                        </div>
+                        <p>100 Email Account</p>
+                        <p>1GB Disk Space</p>
+                        <p>24/24 Support</p>
+                        <div class="margin-bottom"></div>
+                        <a class="my-btn btn-bordered" href="#">Purchase now</a>
+                        <div class="margin-bottom"></div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="margin col-12"></div>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/about1.jpg" class="img-fluid" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/about2.jpg" class="img-fluid" alt="Chicago">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/about1.jpg" class="img-fluid" alt="New York">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
