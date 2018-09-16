@@ -97,6 +97,10 @@ nav a{
     color: black;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 .my-panel{
     border: 1px solid rgb(230, 230, 230);
     padding: 20px 30px;
@@ -121,9 +125,14 @@ nav a{
     color: rgb(97, 150, 255);
 }
 
+.icon-big{
+    font-size: 32px;
+    color: rgb(97, 150, 255);
+}
+
 .my-btn{
     font-weight: 500;
-    padding: 8px 32px;
+    padding: 12px 36px;
     border-radius: 2px;
     font-size: 16px;
 }
@@ -148,8 +157,15 @@ nav a{
     color: rgb(97, 150, 255);
 }
 
+.icon-blue{
+    padding: 20px;
+    font-size: 16px;
+    background: rgb(87, 133, 224);
+    color: white;
+}
+
 .rounded-blue{
-    border:2px solid rgb(97, 150, 255);
+    border:2px solid rgb(88, 136, 233);
     border-radius: 100%;
 }
 
@@ -195,6 +211,10 @@ nav a{
 
 .margin-bottom{
     margin-bottom: 35px;
+}
+
+.margin-little{
+    margin: 14px 0px 18px 0px;
 }
 
 .padding-big{
@@ -334,6 +354,10 @@ nav a{
     background-size: cover;
 }
 
+.text-thing{
+    font-weight: 400;
+}
+
 .rounded-img{
     border-radius: 100%;
     background-position: center;
@@ -348,6 +372,25 @@ nav a{
 .rounded-img-2{
     background-image: url("../img/perso2.jpg");
     border-radius: 100%;
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex: 0 0 auto;
+    background: rgb(26, 26, 26);
+}
+
+.footer-logo{
+    color: white;
+    font-size: 48;
+    font-weight:600;
 }
 
 @media(max-width: 768px){
