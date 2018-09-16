@@ -21,6 +21,7 @@ nav a{
     color: white !important;
     text-decoration-style: none;
 }
+.my-nav{}
 
 .nav-item a{
     font-weight: 500;
@@ -32,13 +33,14 @@ nav a{
     background: rgb(97, 150, 255);
     position: absolute;
     bottom: 0;
-    left: 20%;
+    left: 0;
+    right: 0;
     width: 0px;
     height: 2px;
 }
 
 .nav-item a:hover::after{
-    width: 60%;
+    width: 100%;
 }
 
 .logo{
@@ -397,5 +399,13 @@ nav a{
     .padding-lg{
         width: 15%;
         padding: 25px;
+    }
+
+    .nav-item a:hover{
+        width: 10%;
+    }
+
+    .my-nav{
+        background: rgb(20, 20, 20);
     }
 }
